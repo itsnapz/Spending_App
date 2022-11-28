@@ -43,7 +43,6 @@ namespace SpendingApp
                 UsersControl control = new(user);
                 control.Location = new Point(0, (control.Height * i) + 5);
                 control.OnItemClick += Control_OnItemClick;
-
                 _pnlUsers.Controls.Add(control);
                 i++;
             }
