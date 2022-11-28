@@ -47,9 +47,9 @@
             this._lblName.Margin = new System.Windows.Forms.Padding(3, 0, 20, 0);
             this._lblName.Name = "_lblName";
             this._lblName.Padding = new System.Windows.Forms.Padding(0, 0, 20, 0);
-            this._lblName.Size = new System.Drawing.Size(116, 32);
+            this._lblName.Size = new System.Drawing.Size(101, 32);
             this._lblName.TabIndex = 0;
-            this._lblName.Text = "Matyáš";
+            this._lblName.Text = "Name";
             // 
             // _lblSurname
             // 
@@ -58,9 +58,9 @@
             this._lblSurname.Location = new System.Drawing.Point(500, -1);
             this._lblSurname.Margin = new System.Windows.Forms.Padding(20, 0, 3, 0);
             this._lblSurname.Name = "_lblSurname";
-            this._lblSurname.Size = new System.Drawing.Size(113, 32);
+            this._lblSurname.Size = new System.Drawing.Size(115, 32);
             this._lblSurname.TabIndex = 2;
-            this._lblSurname.Text = "Novotný";
+            this._lblSurname.Text = "Surname";
             // 
             // _pnlSpend
             // 

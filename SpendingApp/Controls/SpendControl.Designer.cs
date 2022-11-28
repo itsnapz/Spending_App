@@ -72,9 +72,9 @@
             this._lblDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this._lblDate.Location = new System.Drawing.Point(268, 15);
             this._lblDate.Name = "_lblDate";
-            this._lblDate.Size = new System.Drawing.Size(64, 15);
+            this._lblDate.Size = new System.Drawing.Size(32, 15);
             this._lblDate.TabIndex = 3;
-            this._lblDate.Text = "27.11.2022";
+            this._lblDate.Text = "Date";
             // 
             // SpendControl
             // 
