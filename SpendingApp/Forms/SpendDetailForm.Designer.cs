@@ -64,6 +64,7 @@
             // 
             // _pnlSpend
             // 
+            this._pnlSpend.AutoScroll = true;
             this._pnlSpend.Location = new System.Drawing.Point(273, 34);
             this._pnlSpend.Name = "_pnlSpend";
             this._pnlSpend.Size = new System.Drawing.Size(515, 404);

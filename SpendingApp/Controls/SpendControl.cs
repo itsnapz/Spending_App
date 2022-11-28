@@ -33,13 +33,17 @@ namespace SpendingApp.Controls
                 _checkIsPaid.Checked = true;
                 _checkIsPaid.Enabled = false;
             }
-            _lblDate.Text = _spend.Dateofaddition.ToString();
+            if (_spend.Paid == false)
+            {
+                _lblDate.Text = string.Empty;
+            }
         }
 
         private void _checkIsPaid_CheckedChanged(object sender, EventArgs e)
         {
             _checkIsPaid.Enabled = false;
             _spend.Paid = true;
+            _lblDate.Text = DateTime.Now.ToShortDateString();
             _database.SaveChanges();
         }
     }

@@ -48,7 +48,7 @@
             // 
             this._lblPrice.AutoSize = true;
             this._lblPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this._lblPrice.Location = new System.Drawing.Point(79, 15);
+            this._lblPrice.Location = new System.Drawing.Point(101, 15);
             this._lblPrice.Name = "_lblPrice";
             this._lblPrice.Size = new System.Drawing.Size(33, 15);
             this._lblPrice.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             this._checkIsPaid.AutoSize = true;
             this._checkIsPaid.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this._checkIsPaid.Location = new System.Drawing.Point(146, 14);
+            this._checkIsPaid.Location = new System.Drawing.Point(182, 14);
             this._checkIsPaid.Name = "_checkIsPaid";
             this._checkIsPaid.Size = new System.Drawing.Size(49, 19);
             this._checkIsPaid.TabIndex = 2;
@@ -70,11 +70,11 @@
             // 
             this._lblDate.AutoSize = true;
             this._lblDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this._lblDate.Location = new System.Drawing.Point(220, 15);
+            this._lblDate.Location = new System.Drawing.Point(268, 15);
             this._lblDate.Name = "_lblDate";
-            this._lblDate.Size = new System.Drawing.Size(113, 15);
+            this._lblDate.Size = new System.Drawing.Size(64, 15);
             this._lblDate.TabIndex = 3;
-            this._lblDate.Text = "27.11.2022 13:58:24";
+            this._lblDate.Text = "27.11.2022";
             // 
             // SpendControl
             // 
@@ -85,7 +85,7 @@
             this.Controls.Add(this._lblPrice);
             this.Controls.Add(this._lblSpendName);
             this.Name = "SpendControl";
-            this.Size = new System.Drawing.Size(360, 46);
+            this.Size = new System.Drawing.Size(375, 46);
             this.Load += new System.EventHandler(this.SpendControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
