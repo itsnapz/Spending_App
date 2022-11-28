@@ -42,6 +42,7 @@
             // 
             // _pnlUsers
             // 
+            this._pnlUsers.AutoScroll = true;
             this._pnlUsers.Location = new System.Drawing.Point(0, 65);
             this._pnlUsers.Name = "_pnlUsers";
             this._pnlUsers.Size = new System.Drawing.Size(542, 385);
