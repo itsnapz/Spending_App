@@ -6,7 +6,7 @@
 
 
 
-## 💻 Screenshot základního UI aplikace 💻
+## 💻 Základní UI aplikace 💻
 
  ![image](https://i.imgur.com/YApGYz7.png)
 
