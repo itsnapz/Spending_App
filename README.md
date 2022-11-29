@@ -10,7 +10,7 @@
 
  ![image](https://i.imgur.com/YApGYz7.png)
 
-  > #### Pro přidání nového uživatele vyplníme v základním UI aplikace jméno, příjmení a email uživatele a stiskneme tlačítko Add.
+  > #### Pro **přidání** nového uživatele vyplníme v základním UI aplikace **jméno**, **příjmení** a **email** uživatele a stiskneme tlačítko **Add**.
 
 
 
