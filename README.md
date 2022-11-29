@@ -13,8 +13,9 @@
   > #### Pro přidání nového uživatele vyplníme v základním UI aplikace jméno, příjmení a email uživatele a stiskneme tlačítko Add.
 
 
-### UpdateUI metoda pro Form1
-```
+
+## 🖋 UpdateUI metoda pro Form1 🖋
+```c#
     private void UpdateUi()
             {
                 _pnlUsers.Controls.Clear();
@@ -28,4 +29,29 @@
                     i++;
                 }
             }
+```
+
+## 🧑 Přidání nového uživatele ve Form1 🧑
+```c#
+    private void _btnAdd_Click(object sender, EventArgs e)
+            {
+                _database.Users.Add(new User()
+                {
+                    Name=_txtName.Text,
+                    Email=_txtEmail.Text,
+                    Surname=_txtSurname.Text,
+                });
+                _database.SaveChanges();
+            }
+```
+
+## ✅ Označení objednávky za vyřízenou ve SpendControl.cs ✅
+```c#
+    private void _checkIsPaid_CheckedChanged(object sender, EventArgs e)
+        {
+            _checkIsPaid.Enabled = false;
+            _spend.Paid = true;
+            _lblDate.Text = DateTime.Now.ToShortDateString();
+            _database.SaveChanges();
+        }
 ```
