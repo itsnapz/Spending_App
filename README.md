@@ -6,6 +6,6 @@
 
 
 
-Screenshot základního UI aplikace 💲
+💻 Screenshot základního UI aplikace 💻
 
  ![image](https://i.imgur.com/YApGYz7.png)
