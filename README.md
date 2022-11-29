@@ -11,7 +11,7 @@
  ![image](https://i.imgur.com/YApGYz7.png)
 
   > - #### Pro **přidání** nového uživatele vyplníme v základním UI aplikace **jméno**, **příjmení** a **email** uživatele a stiskneme tlačítko       **Add**.
-  > - #### Pro **otevření účtu** již vytvořené osoby stačí **kliknout** na jméno v UI aplikace **levým tlačítkem myši**.
+  > - #### Pro **otevření účtu** již vytvořené osoby stačí **kliknout** na jméno v UI aplikace 🖱 **levým tlačítkem myši** 🖱.
 
 
 
@@ -31,6 +31,7 @@
                 }
             }
 ```
+ > - #### **_pnlUsers** představuje **Panel** ve WinForms
 
 ## 🧑 Přidání nového uživatele ve Form1 🧑
 ```c#
