@@ -60,9 +60,9 @@
             this._checkIsPaid.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this._checkIsPaid.Location = new System.Drawing.Point(182, 14);
             this._checkIsPaid.Name = "_checkIsPaid";
-            this._checkIsPaid.Size = new System.Drawing.Size(49, 19);
+            this._checkIsPaid.Size = new System.Drawing.Size(60, 19);
             this._checkIsPaid.TabIndex = 2;
-            this._checkIsPaid.Text = "Paid";
+            this._checkIsPaid.Text = "Paid 💲";
             this._checkIsPaid.UseVisualStyleBackColor = true;
             this._checkIsPaid.CheckedChanged += new System.EventHandler(this._checkIsPaid_CheckedChanged);
             // 

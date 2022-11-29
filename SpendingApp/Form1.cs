@@ -63,6 +63,7 @@ namespace SpendingApp
                 Surname=_txtSurname.Text,
             });
             _database.SaveChanges();
+            UpdateUi();
         }
     }
 }

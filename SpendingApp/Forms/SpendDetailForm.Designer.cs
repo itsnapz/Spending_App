@@ -43,7 +43,7 @@
             // 
             this._lblName.AutoSize = true;
             this._lblName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this._lblName.Location = new System.Drawing.Point(401, -1);
+            this._lblName.Location = new System.Drawing.Point(380, -1);
             this._lblName.Margin = new System.Windows.Forms.Padding(3, 0, 20, 0);
             this._lblName.Name = "_lblName";
             this._lblName.Padding = new System.Windows.Forms.Padding(0, 0, 20, 0);

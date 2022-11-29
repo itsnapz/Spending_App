@@ -37,8 +37,8 @@ namespace SpendingApp.Forms
         {
             var name = _user.Name;
             var surname = _user.Surname;
-            _lblName.Text = name;
-            _lblSurname.Text = surname;
+            _lblName.Text = "🧑"+name;
+            _lblSurname.Text = surname+"🧑";
 
             _pnlSpend.Controls.Clear();
             int i = 0;
@@ -62,6 +62,7 @@ namespace SpendingApp.Forms
                 Paid = _checkPaid.Checked ? true : false,
             });
             _database.SaveChanges();
+            UpdateUI();
         }
     }
 }

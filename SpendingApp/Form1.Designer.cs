@@ -115,9 +115,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(608, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 32);
+            this.label4.Size = new System.Drawing.Size(185, 32);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Add user";
+            this.label4.Text = "🆕Add user🆕";
             // 
             // label5
             // 
@@ -125,9 +125,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(198, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(151, 32);
+            this.label5.Size = new System.Drawing.Size(209, 32);
             this.label5.TabIndex = 9;
-            this.label5.Text = "List of users";
+            this.label5.Text = "⛄List of users⛄";
             // 
             // Form1
             // 
