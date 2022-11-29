@@ -11,3 +11,21 @@
  ![image](https://i.imgur.com/YApGYz7.png)
 
   > #### Pro přidání nového uživatele vyplníme v základním UI aplikace jméno, příjmení a email uživatele a stiskneme tlačítko Add.
+
+
+### UpdateUI metoda pro Form1
+```
+    private void UpdateUi()
+            {
+                _pnlUsers.Controls.Clear();
+                int i = 0;
+                foreach (var user in _users)
+                {
+                    UsersControl control = new(user);
+                    control.Location = new Point(0, (control.Height * i) + 5);
+                    control.OnItemClick += Control_OnItemClick;
+                    _pnlUsers.Controls.Add(control);
+                    i++;
+                }
+            }
+```
