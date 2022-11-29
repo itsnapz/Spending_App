@@ -13,6 +13,12 @@
   > - #### Pro **přidání** nového uživatele vyplníme v základním UI aplikace **jméno**, **příjmení** a **email** uživatele a stiskneme tlačítko       **Add**.
   > - #### Pro **otevření účtu** již vytvořené osoby stačí **kliknout** na jméno v UI aplikace 🖱 **levým tlačítkem myši** 🖱.
 
+  ![image](https://i.imgur.com/d1h9uAe.png)
+
+  > - #### Po rozkliknutí zvoleného uživatele můžeme **přidat útratu**.
+  > - #### Útratu **lze** také označit za **uhrazenou**.
+  > - #### **Po uhrazení** se vedle útraty objeví **datum úhrady**.
+
 
 
 ## 🖋 UpdateUI metoda pro Form1 🖋
@@ -57,3 +63,7 @@
             _database.SaveChanges();
         }
 ```
+
+## 🛠 Diagram databáze v Microsoft SQL Studiu 🛠
+![image](https://i.imgur.com/vCfywqJ.png)
+> - #### Vazba mezi users_id z tabulky Users a users_id z tabulky Spend
